@@ -3,18 +3,64 @@
   <head>
 	  <img src="https://serveiseducatius.xtec.cat/santacolomag/wp-content/uploads/usu1183/2019/02/image01-e1549535622459.jpg">
 
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-@@ -12,6 +12,7 @@
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="icon" href="https://serveiseducatius.xtec.cat/santacolomag/wp-content/uploads/usu1183/2019/02/image01-e1549535622459.jpg">
 
     <title>Pagina Web Mohamed</title>
-	   <img src="https://serveiseducatius.xtec.cat/santacolomag/wp-content/uploads/usu1183/2019/02/image01-e1549535622459.jpg">
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-@@ -64,13 +65,12 @@ <h1><br>Bevinguts a la meva pagina !</h1>
+    
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Mohamed Eghribel Lahrech</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Inici</a></li>
+            <li><a href="#">Música</a></li>
+            <li><a href="#">Fotos</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1><br>Bevinguts a la meva pagina !</h1>
+        <p class="lead">Asignatura d'Informàtica de 4t d'ESO 2018 - 2019</p>
+        
+        <!-- css del ejemplo -->
+<style type="text/css">
+.rojo { color: red; }
+.grande26 {font-size: 26px;}
+.pequeno10 {font-size: 10px;}
+</style>
+
+<style>
+.Mydivadd{
+	color:#fff;
+  	background:#f98585;
   	padding:10px;
 }
 </style>
@@ -25,17 +71,18 @@ $(document).ready(function(){
 	});
 });
 </script>
-	      
 <div id="Divone">Esta es una linea utilitzant jquery</div>
+        
+        
 
-
-@@ -81,8 +81,8 @@ <h1><br>Bevinguts a la meva pagina !</h1>
+          <style>
+.Mydivremove{
+	color:#fff;
   	background:#53e6be;
   	padding:10px;
 }
 </style>
 <script>
-		  
 $(document).ready(function(){
 	$("#Divtwo").hover(function(){
 		$(this).removeClass("Mydivremove");
@@ -64,7 +111,10 @@ $(document).ready(function(){
  
 <input type="button" name="boton01" id="boton01" value="Eliminar clases de los 2 párrafos">
       </div>
+
     </div><!-- /.container -->
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
