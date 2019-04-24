@@ -55,8 +55,57 @@
 .pequeno10 {font-size: 10px;}
 </style>
 
+<style>
+.Mydivadd{
+	color:#fff;
+  	background:#f98585;
+  	padding:10px;
+}
+</style>
+<script>
+$(document).ready(function(){
+	$("#Divone").hover(function(){
+		$(this).addClass("Mydivadd");
+	});
+});
+</script>
+<div id="Divone">Esta es una linea utilitzant jquery</div>
+        
+        
 
- 
+          <style>
+.Mydivremove{
+	color:#fff;
+  	background:#53e6be;
+  	padding:10px;
+}
+</style>
+<script>
+$(document).ready(function(){
+	$("#Divtwo").hover(function(){
+		$(this).removeClass("Mydivremove");
+	});
+});
+</script>
+<div id="Divtwo" class="Mydivremove">This is the div to show how to remove class on hover using jquery</div>
+        
+        
+        
+        <style>
+.Mydiv{
+	color:#fff;
+  	background:#ff9c46;
+  	padding:10px;
+}
+</style>
+<script>
+$(document).ready(function(){
+	$("#Divthree").hover(function(){
+		$(this).toggleClass("Mydiv");
+	});
+});
+</script>
+<div id="Divthree">This is the div to show how to remove class on hover using jquery</div>
  
 <input type="button" name="boton01" id="boton01" value="Eliminar clases de los 2 párrafos">
       </div>
